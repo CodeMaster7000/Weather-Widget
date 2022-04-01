@@ -1,0 +1,46 @@
+<div class="heading-box">
+  <h1><span>Weather</span> Widget</h1>
+</div>
+
+<div class="container-fluid text-center">
+  <div class="row">
+    <div class="col-sm-4 col-sm-offset-4 ">
+      <div id="widget" class="panel panel-primary">
+        <div class="panel-heading">
+          <form id="search" class="form-inline" role="form" action="javascript:void(0);">
+            <div class="form-group">
+              <label class="sr-only" for="city">Search a city</label>
+              <div class="input-group">
+                <input type="text" id="city" class="form-control input-sm" placeholder="City, country" autocomplete></input>
+                <span class="input-group-btn">
+                              <button class="btn btn-default btn-sm"><i class="glyphicon glyphicon-search"></i></button>
+                           </span>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="panel-body">
+          <div class="row">
+            <div class="col-xs-7">
+              <h5>Today</h5>
+              <div id="icon"></div>
+              <p id="weather"></p>
+            </div>
+            <div class="col-xs-5">
+              <div>
+                <p>Temperature:</p>
+                <p><span id="temp"></span>&#32;<span id="unit">°C</span></p>
+              </div>
+              <div>
+                <p>Humidity:</p>
+                <p><span id="hum"></span>&#32;%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="panel-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
